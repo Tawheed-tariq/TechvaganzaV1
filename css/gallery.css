@@ -1,0 +1,99 @@
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* Main CSS */
+.grid-wrapper > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    opacity: 1;
+    background-color: #f9f2c7;
+    box-shadow: 2px 2px #fedd00;
+}
+.grid-wrapper > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+    grid-column: span 2;
+}
+.grid-wrapper .tall {
+    grid-row: span 2;
+}
+.grid-wrapper .big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.grid {
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+    margin: 20px 0;
+    position: sticky;
+}
+
+.wrapper {
+    overflow: scroll;
+}
+
+.scene {
+    overflow: scroll;
+}
+
+.hero-layer {
+    pointer-events: none;
+}
+
+.hero-layer > div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    opacity: 0.5;
+    filter: blur(50px);
+}
+
+.layer a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    opacity: 1;
+    filter: blur(50px);
+}
+
+.layer a {
+    color : #000;
+}
+
+.layer i{
+    color : #000;
+}
+.layer[data-depth = "0.2"] {
+    pointer-events: none;
+}
+

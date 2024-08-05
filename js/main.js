@@ -69,8 +69,8 @@ $('.countdown').countdown({
 
 
 const letters = "abcdefghijklmnopqrstuvwxyz";
-const  dataText = "Techvaganza' 24";
 var LoaderText = document.querySelector("#head-text");
+const  dataText = LoaderText.innerText;
 
 const intervalPrev = setInterval(()=>{
 
