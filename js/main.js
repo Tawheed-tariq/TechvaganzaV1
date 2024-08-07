@@ -99,3 +99,8 @@ const intervalPrev = setInterval(()=>{
     
 window.addEventListener("load", Jumble);
 setInterval(Jumble, 10000);
+
+
+const changePage = (page) => {
+    window.location.href = page
+}
