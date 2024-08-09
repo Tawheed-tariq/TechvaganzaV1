@@ -62,38 +62,22 @@ img {
     pointer-events: none;
 }
 
-.hero-layer > div::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #fff;
-    opacity: 0.5;
-    filter: blur(50px);
-}
-
-.layer a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #fff;
-    opacity: 1;
-    filter: blur(50px);
-}
-
-.layer a {
-    color : #000;
-}
-
-.layer i{
-    color : #000;
-}
 .layer[data-depth = "0.2"] {
     pointer-events: none;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+.memories {
+    padding: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    clip-path: polygon(0px 25px, 26px 0px, calc(60% - 25px) 0px, 60% 25px, 100% 25px, 100% calc(100% - 10px), calc(100% - 15px) calc(100% - 10px), calc(80% - 10px)  calc(100% - 10px), calc(80% - 15px) calc(100% - 0px), 10px  calc(100% - 0px), 0% calc(100% - 10px));
+    background-color: rgba(255, 249, 206, 0.8);
+    width: max-content;
 }
 
