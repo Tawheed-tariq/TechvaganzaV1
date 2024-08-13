@@ -364,8 +364,8 @@ a:hover::after {
 
 .depth-3.flake2 {
 	position: absolute;
-	right: 16%;
-	bottom: 20%;
+	top: 65%;
+	left: 55%;
 }
 
 .depth-3.flake3 {
@@ -1197,12 +1197,12 @@ a:hover::after {
 		display: block;
 		position: absolute;
 		left: 55%;
-		top: 55%;
+		top: 10%;
 	}
 
 	.depth-3.flake2 {
-		right: 10%;
-		bottom: 50%;
+		left: 55%;
+		top: 55%;
 	}
 
 	.depth-3.flake3 {
