@@ -1195,8 +1195,8 @@ a:hover::after {
 	.depth-3.flake1 {
 		display: block;
 		position: absolute;
-		left: 60%;
-		top: 40%;
+		left: 55%;
+		top: 55%;
 	}
 
 	.depth-3.flake2 {
@@ -1451,9 +1451,9 @@ a:hover::after {
 .logo {
 	display: block;
 	position: absolute;
-	top: calc(50% - 75px);
-	width: 150px;
-	left: 50%;
+	top: calc(50% - 10px);
+	width: 200px;
+	left: calc(50% - 320px);
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
