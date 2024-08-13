@@ -1453,7 +1453,7 @@ a:hover::after {
 	position: absolute;
 	top: calc(50% - 10px);
 	width: 200px;
-	left: calc(50% - 320px);
+	left: calc(50% + 320px);
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
